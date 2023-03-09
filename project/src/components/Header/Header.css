@@ -1,0 +1,42 @@
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    justify-content: space-between
+}
+
+.header_logo {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+}
+
+.header_nav {
+    margin-right: 20px;
+}
+
+a  {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header_avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.header_option {
+    display: flex;
+    align-items: center;
+}
+
+.header_name {
+    margin-right: 10px;
+}

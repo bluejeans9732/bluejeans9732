@@ -1,0 +1,25 @@
+.LeftSide_main{
+    background-color: lightgray;
+    height: 100%;
+    list-style: none;
+    position: relative;
+}
+
+.LeftSide_li {
+    position: absolute;
+    top: -70%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.LeftSide_li li {
+    margin-bottom: 20px;
+    cursor: pointer;
+}

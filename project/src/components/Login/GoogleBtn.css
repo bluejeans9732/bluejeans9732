@@ -1,0 +1,14 @@
+.loginButton2 {
+    width: 150px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.google2 {
+    background-color: #df4930;
+}

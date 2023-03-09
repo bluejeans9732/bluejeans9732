@@ -1,0 +1,25 @@
+.footer {
+    background-color: beige;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.footer_contianer_Left {
+    margin: auto 20px;
+}
+
+.footer_contianer_Right {
+    margin: auto;
+}
+
+.footer_contianer_Right a {
+    text-decoration: none;
+    color: inherit;
+}

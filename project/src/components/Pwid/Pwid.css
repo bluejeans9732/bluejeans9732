@@ -1,0 +1,78 @@
+.Pwid {
+    height: calc(100vh - 260px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Pwid_wrapper {
+    width: 60%;
+    height: 75%;
+    -webkit-box-shadow: 0px 5px 33px -21px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 5px 33px -21px rgba(66, 68, 90, 1);
+    box-shadow: 0px 5px 33px -21px rgba(66, 68, 90, 1);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+input {
+    width: 200px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.Pwid_email {
+    transform: translateX(7px);
+}
+
+
+.Pwid_email input {
+    width: 145px
+}
+
+.Pwid_email button {
+    width: 70px;
+    height: 38px;
+    margin-left: 10px;
+    transform: translateY(2px);
+}
+
+.Pwid_email_check {
+    margin-bottom: 20px;
+    font-size: 12px;
+    transform: translateX(30px);
+}
+
+.PwidTitle {
+    position: absolute;
+    top: 350px;
+    color: lightgray;
+}
+
+.Pwid_pw input{
+    width: 225px;
+}
+
+.Pwid_pw_re {
+    transform: translateX(-18px);
+}
+
+.Pwid_pw_re input{
+    width: 225px;
+}
+
+.Pwid_button {
+    margin-top: 30px;
+}
+.Pwid_button_registry {
+    margin-right: 80px;
+}
+
+.Pwid_button button {
+    width: 70px;
+    height: 38px;
+}

@@ -1,0 +1,9 @@
+.Main {
+    height: calc(100% - 250px);
+    width: 100%;
+    display: flex;
+}
+
+.Main_left {
+    width: 300px;
+}
