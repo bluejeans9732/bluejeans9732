@@ -7,6 +7,8 @@ import Pwid from './components/Pwid/Pwid.jsx'
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { useEffect, useState } from 'react';
 
+import React from 'react';
+
 function App() {
   const [user, setUser] = useState(null)
 
@@ -39,10 +41,11 @@ function App() {
       <div className="App">
         <Header user={user} />
         <Routes>
-          <Route path="/*" element={<Main />}/>
-          <Route path="/login" element={user ? <Navigate to="/" /> : <Login />}/>
-          {/* <Route path='/post/:id' element(<post />)> */}
-          <Route path='/Pwid' element={<Pwid />} />
+            <Route path="/*" element={<Main />}/>
+            
+            <Route path="/login" element={user ? <Navigate to="/" /> : <Login />}/>
+            {/* <Route path='/post/:id' element(<post />)> */}
+            <Route path='/Pwid' element={<Pwid />} />
         </Routes>
         <Footer />
       </div>

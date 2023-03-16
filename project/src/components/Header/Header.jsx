@@ -31,7 +31,6 @@ function Header({user}) {
                         />
                         <span className='header_name'>{user.displayName}</span>
                         <span className='header_logout' onClick={logout}>Log Out</span>
-                        <button onClick={logOutCheck}>로그아웃</button>
                     </div>
                 </div> 
             ) : (
@@ -40,7 +39,6 @@ function Header({user}) {
                         <Link to = "/Login">
                             <span className='header_option_icon'>로그인하기</span>
                         </Link>
-                        <button onClick={logOutCheck}>로그아웃</button>
                     </div>
                 </div>
             )}
